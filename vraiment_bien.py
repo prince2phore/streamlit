@@ -94,7 +94,7 @@ if submitted:
             if rep == row["reponse_createur"]:
                 correct_q += 1
     if total_q:
-        st.metric("Cohérence avec tes vraies réponses", f"{correct_q/total_q*100:.0f}%", f"{correct_q}/{total_q}")
+        st.metric("Cohérence avec les réponses validées par Dieu", f"{correct_q/total_q*100:.0f}%", f"{correct_q}/{total_q}")
 
     st.info(
         "💡 Pour comparer 'qui connaît le mieux l'autre', il faut que chaque ami "
